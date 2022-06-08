@@ -1,4 +1,4 @@
-main  main
+main  main main 
 var numbers = ['one', 'two', 'three', 'four', 'five'];
 alert(numbers.toString());
 alert(numbers);
