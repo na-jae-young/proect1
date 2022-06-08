@@ -1,0 +1,13 @@
+test.txt
+
+
+(/file.c  -- 파일위치지정)
+(*.c  --모든 확장자 무시)
+(!xxx.c  xxx.c는 절대 무시하지마라)
+(logs   -- logs라는 이름의 파일과 폴더 무시)
+(logs/  -- logs라는 폴더의 내용 무시)
+(logs/xxx.c  logs 폴더 안에 xxx.c 무시)
+(logs/**/debug.log --logs 안에 또는 다른폴터안에 그 폴더안의 폴더안에 )
+
+
+(git status)
